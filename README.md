@@ -24,18 +24,13 @@ Inventory Control & Replenishment Management Model
 
 مكونات المشروع
 
-1. ورقة المخزون (Inventory)
-
+![المخزون](screenshots/Inventory-sheet.png)
 تعرض البيانات الأساسية للأصناف، بما يشمل رموز الأصناف وأسماءها وتصنيفاتها ومستويات المخزون وحدود إعادة الطلب وكميات الاستيفاء المطلوبة.
 
 تساعد هذه الورقة على تحديد حالة كل صنف واكتشاف الأصناف التي تحتاج إلى إعادة التوريد.
 
 
-
-مسار الصورة: ./screenshots/Inventory-sheet.png
-
-2. ورقة حركة المخزون (Inventory Movement)
-
+![حركة المخزون](screenshots/Inventory-Movement-Sheet.png)
 تسجل حركة الأصناف، بما يشمل رصيد بداية الفترة والكميات المستلمة والمنصرفة ورصيد نهاية الفترة.
 
 يُحسب رصيد نهاية الفترة باستخدام المعادلة التالية:
@@ -43,10 +38,7 @@ Inventory Control & Replenishment Management Model
 رصيد نهاية الفترة = رصيد بداية الفترة + الكمية المستلمة - الكمية المنصرفة
 
 
-
-مسار الصورة: ./screenshots/Inventory-Movement-Sheet.png
-
-3. ورقة الجرد (Stocktaking)
+![الجرد](screenshots/Stocktaking-Sheet.png)
 
 تُستخدم لمقارنة رصيد النظام بالكمية الفعلية للأصناف وتحديد الفروقات التي قد تستدعي المراجعة.
 
@@ -61,18 +53,12 @@ Inventory Control & Replenishment Management Model
 الفرق الصفري: تطابق الكمية الفعلية مع رصيد النظام.
 
 
-
-مسار الصورة: ./screenshots/Stocktaking-Sheet.png
-
-4. ورقة التقرير (Inventory Report)
-
+![التقرير](screenshots/Report-Sheet.png)
 تعرض ملخصًا لحالة المخزون واحتياجات إعادة الطلب على مستوى الفروع، بما يشمل عدد الأصناف المنتهية والأصناف التي تحتاج إلى إعادة الطلب وكميات الاستيفاء المطلوبة.
 
 يساعد التقرير على تحديد أولويات المتابعة التشغيلية.
 
 
-
-مسار الصورة: ./screenshots/Report-Sheet.png
 
 الأدوات والمهارات المستخدمة
 
